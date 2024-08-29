@@ -1,0 +1,50 @@
+/*Props*/
+.student{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/*Conditional Rendering*/
+.welcomeMessage {
+    font-size: 1.5em;
+    background-color: hsl(118, 50%, 50%);
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+.loginPrompt{
+    font-size: 1.5em;
+    background-color: hsl(0, 50%, 50%);
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Rendering Lists */
+.listName{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    color: hsl(200, 50%, 70%);
+    border: 5px solid;
+    border-radius: 20px;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+.listCategory{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: hsl(39, 100%, 38%);
+    border: 10px solid;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
