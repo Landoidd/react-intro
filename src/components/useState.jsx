@@ -18,10 +18,10 @@ const updateAge = () => {
     setAge(age + 1);
 }
 
-return(<div>
+return(
+<div>
     <p>Name: {name}</p>
     <input id="changeName" placeholder="Update name" onChange={updateName} value={name}></input>
-    <button onClick={updateName(changeName.innerText())}>Update Name</button>
     <p>Age: {age}</p>
     <button onClick={updateAge}>Set age</button>
 </div>);
